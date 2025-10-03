@@ -1,0 +1,81 @@
+body {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background-color: #f0f8ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.calculator-container {
+  background: #fff;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 90%;
+  max-width: 400px;
+}
+
+h1 {
+  color: #ff6347;
+  margin-bottom: 20px;
+}
+
+.calculator-form .inputs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+input[type="text"], select {
+  padding: 15px;
+  border-radius: 10px;
+  border: 2px solid #ddd;
+  font-size: 1.2rem;
+  width: 100px;
+  text-align: center;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+select {
+  font-size: 1.5rem;
+  padding: 10px;
+  background-color: #f9f9f9;
+  min-width: 130px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  
+}
+
+button {
+  background-color: #32cd32;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #228b22;
+}
+
+.result {
+  margin-top: 25px;
+  font-size: 1.5rem;
+  color: #008000;
+}
+
+.error {
+  margin-top: 25px;
+  font-size: 1.2rem;
+  color: #ff0000;
+  background-color: #fff0f0;
+  padding: 10px;
+  border-radius: 10px;
+}
