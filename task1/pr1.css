@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    padding-top: 100px;
+}
+
+.buttons{
+    padding-top: 45px;
+}
+
+.counter{
+    padding-top: 45px;
+}
+
+a,ul,li{
+    list-style-type: none ;
+    
+}
+/* .main{
+    border-style: solid;
+    border-color: #0d6efd;
+} */
