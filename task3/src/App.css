@@ -1,0 +1,53 @@
+/* App.css */
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #dbe6f6, #c5796d); /* Soft blend of blue & rose */
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #2c3e50; /* Deep blue-gray */
+  margin-bottom: 25px;
+  text-align: center;
+  animation: fadeIn 1s ease-in-out;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin: 10px 0;
+  text-align: center;
+  color: #34495e; /* Muted dark slate */
+}
+
+div {
+  background-color: #f7f9fc; /* Very light blue-gray */
+  padding: 30px 45px;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(44, 62, 80, 0.15); /* Soft shadow */
+  transition: transform 0.3s ease-in-out;
+  border: 1px solid #e1e5ea;
+}
+
+/* div:hover {
+  transform: scale(1.02);
+  background-color: #ffffff;
+  box-shadow: 0 12px 24px rgba(44, 62, 80, 0.2);
+} */
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
